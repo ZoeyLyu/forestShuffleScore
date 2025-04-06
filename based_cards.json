@@ -1,0 +1,3002 @@
+[
+    {
+        "1": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "2": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "3": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "4": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "5": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "6": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "7": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "8": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "9": {
+            "name": "duanshu",
+            "color": "duanshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "duanshuScore"
+        }
+    },
+    {
+        "10": {
+            "name": "xiangshu",
+            "color": "xiangshu",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 xiangshu",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": "xiangshuScore"
+        }
+    },
+    {
+        "11": {
+            "name": "xiangshu",
+            "color": "xiangshu",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 xiangshu",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": "xiangshuScore"
+        }
+    },
+    {
+        "12": {
+            "name": "xiangshu",
+            "color": "xiangshu",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 xiangshu",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": "xiangshuScore"
+        }
+    },
+    {
+        "13": {
+            "name": "xiangshu",
+            "color": "xiangshu",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 xiangshu",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": "xiangshuScore"
+        }
+    },
+    {
+        "14": {
+            "name": "xiangshu",
+            "color": "xiangshu",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 xiangshu",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": "xiangshuScore"
+        }
+    },
+    {
+        "15": {
+            "name": "xiangshu",
+            "color": "xiangshu",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 xiangshu",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": "xiangshuScore"
+        }
+    },
+    {
+        "16": {
+            "name": "xiangshu",
+            "color": "xiangshu",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 xiangshu",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": "xiangshuScore"
+        }
+    },
+    {
+        "17": {
+            "name": "xinshan",
+            "color": "xinshan",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 yinshan",
+            "rewards": "put a youZhuaDongWu",
+            "effect": null,
+            "score_rules": "yinshanScore"
+        }
+    },
+    {
+        "18": {
+            "name": "xinshan",
+            "color": "xinshan",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 yinshan",
+            "rewards": "put a youZhuaDongWu",
+            "effect": null,
+            "score_rules": "yinshanScore"
+        }
+    },
+    {
+        "19": {
+            "name": "xinshan",
+            "color": "xinshan",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 yinshan",
+            "rewards": "put a youZhuaDongWu",
+            "effect": null,
+            "score_rules": "yinshanScore"
+        }
+    },
+    {
+        "20": {
+            "name": "xinshan",
+            "color": "xinshan",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 yinshan",
+            "rewards": "put a youZhuaDongWu",
+            "effect": null,
+            "score_rules": "yinshanScore"
+        }
+    },
+    {
+        "21": {
+            "name": "xinshan",
+            "color": "xinshan",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 yinshan",
+            "rewards": "put a youZhuaDongWu",
+            "effect": null,
+            "score_rules": "yinshanScore"
+        }
+    },
+    {
+        "22": {
+            "name": "xinshan",
+            "color": "xinshan",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 yinshan",
+            "rewards": "put a youZhuaDongWu",
+            "effect": null,
+            "score_rules": "yinshanScore"
+        }
+    },
+    {
+        "23": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "24": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "25": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "26": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "27": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "28": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "29": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "30": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "31": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "32": {
+            "name": "baihua",
+            "color": "baihua",
+            "cost": 0,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "baihuaScore"
+        }
+    },
+    {
+        "33": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "34": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "35": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "36": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "37": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "38": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "39": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "40": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "41": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "42": {
+            "name": "shanmaoju",
+            "color": "shanmaoju",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": "naqu a card",
+            "score_rules": "shanmaojuScore"
+        }
+    },
+    {
+        "43": {
+            "name": "meiguowutong",
+            "color": "meiguowutong",
+            "cost": 2,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "meiguowutongScore"
+        }
+    },
+    {
+        "44": {
+            "name": "meiguowutong",
+            "color": "meiguowutong",
+            "cost": 2,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "meiguowutongScore"
+        }
+    },
+    {
+        "45": {
+            "name": "meiguowutong",
+            "color": "meiguowutong",
+            "cost": 2,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "meiguowutongScore"
+        }
+    },
+    {
+        "46": {
+            "name": "meiguowutong",
+            "color": "meiguowutong",
+            "cost": 2,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "meiguowutongScore"
+        }
+    },
+    {
+        "47": {
+            "name": "meiguowutong",
+            "color": "meiguowutong",
+            "cost": 2,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "meiguowutongScore"
+        }
+    },
+    {
+        "48": {
+            "name": "meiguowutong",
+            "color": "meiguowutong",
+            "cost": 2,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "meiguowutongScore"
+        }
+    },
+    {
+        "49": {
+            "name": "huaqisong",
+            "color": "huaqisong",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 huaqisong",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": 5
+        }
+    },
+    {
+        "50": {
+            "name": "huaqisong",
+            "color": "huaqisong",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 huaqisong",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": 5
+        }
+    },
+    {
+        "51": {
+            "name": "huaqisong",
+            "color": "huaqisong",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 huaqisong",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": 5
+        }
+    },
+    {
+        "52": {
+            "name": "huaqisong",
+            "color": "huaqisong",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 huaqisong",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": 5
+        }
+    },
+    {
+        "53": {
+            "name": "huaqisong",
+            "color": "huaqisong",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 huaqisong",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": 5
+        }
+    },
+    {
+        "54": {
+            "name": "huaqisong",
+            "color": "huaqisong",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 huaqisong",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": 5
+        }
+    },
+    {
+        "55": {
+            "name": "huaqisong",
+            "color": "huaqisong",
+            "cost": 2,
+            "type": "tree",
+            "condition": "2 huaqisong",
+            "rewards": "reset",
+            "effect": null,
+            "score_rules": 5
+        }
+    },
+    {
+        "56": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "57": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "58": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "59": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "60": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "61": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "62": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "63": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "64": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "65": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "66": {
+            "name": "ouzhouqiyeshu",
+            "color": "ouzhouqiyeshu",
+            "cost": 1,
+            "type": "tree",
+            "condition": null,
+            "rewards": null,
+            "effect": null,
+            "score_rules": "ouzhouqiyeshuScore"
+        }
+    },
+    {
+        "71-left": {
+            "name": "ouzhouyetu",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "71-right": {
+            "name": "matiejutoufu",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "70-left": {
+            "name": "ouzhouyetu",
+            "color": "duanshu",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "70-right": {
+            "name": "ouzhougouguan",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2"
+        }
+    },
+    {
+        "72-left": {
+            "name": "ouzhouyetu",
+            "color": "yinshan",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "72-right": {
+            "name": "chihu",
+            "color": "xiangshu",
+            "cost": "2",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2*ouzhouyetu"
+        }
+    },
+    {
+        "73-left": {
+            "name": "huanxiong",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": ""
+        }
+    },
+    {
+        "73-right": {
+            "name": "ouzhouyetu",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "74-left": {
+            "name": "yezhu",
+            "color": "meiguowutong",
+            "cost": "2",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "74-right": {
+            "name": "ouzhouyetu",
+            "color": "yinshan",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "75-left": {
+            "name": "putongchangerfu",
+            "color": "meiguowutong",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "75-right": {
+            "name": "ouzhouyetu",
+            "color": "duanshu",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "76-left": {
+            "name": "huanxiong",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "76-right": {
+            "name": "xifangpao",
+            "color": "shanmaoju",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "77-left": {
+            "name": "putongchangerfu",
+            "color": "meiguowutong",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "77-right": {
+            "name": "ouzhougouguan",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2"
+        }
+    },
+    {
+        "78-left": {
+            "name": "ouzhoukuanerfu",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "78-right": {
+            "name": "yezhu",
+            "color": "xiangshu",
+            "cost": "2",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "79-left": {
+            "name": "zongxiong",
+            "color": "duanshu",
+            "cost": "3",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "79-right": {
+            "name": "huanxiong",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "80-left": {
+            "name": "shidiao",
+            "color": "meiguowutong",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "80-right": {
+            "name": "zongxiong",
+            "color": "ouzhouqiyeshu",
+            "cost": "3",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "81-left": {
+            "name": "ouzhoumalu",
+            "color": "duanshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "81-right": {
+            "name": "zongxiong",
+            "color": "shanmaoju",
+            "cost": "3",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "82-left": {
+            "name": "ouzhoukuanerfu",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "82-right": {
+            "name": "shidiao",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "83-left": {
+            "name": "sheli",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "83-right": {
+            "name": "ouzhouyetu",
+            "color": "baihua",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "84-left": {
+            "name": "yezhu",
+            "color": "baihua",
+            "cost": "2",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "84-right": {
+            "name": "shidiao",
+            "color": "xiangshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "85-left": {
+            "name": "ouzhougouguan",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2"
+        }
+    },
+    {
+        "85-right": {
+            "name": "ne",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "86-left": {
+            "name": "chihu",
+            "color": "duanshu",
+            "cost": "2",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2*ouzhouyetu"
+        }
+    },
+    {
+        "86-right": {
+            "name": "zilanmufeng",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "87-left": {
+            "name": "yezhu",
+            "color": "meiguowutong",
+            "cost": "2",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "87-right": {
+            "name": "xifangpao",
+            "color": "ouzhouqiyeshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "88-left": {
+            "name": "nianlu",
+            "color": "duanshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "88-right": {
+            "name": "yezhu",
+            "color": "huaqisong",
+            "cost": "2",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "89-left": {
+            "name": "nianlu",
+            "color": "duanshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "89-right": {
+            "name": "xifangpao",
+            "color": "baihua",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "90-left": {
+            "name": "ouzhoumalu",
+            "color": "yinshan",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "90-right": {
+            "name": "nianlu",
+            "color": "meiguowutong",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "91-left": {
+            "name": "zilanmufeng",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "91-right": {
+            "name": "sheli",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "92-left": {
+            "name": "shuishu",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "92-right": {
+            "name": "ouzhoukuanerfu",
+            "color": "xiangshu",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "93-left": {
+            "name": "matiejutoufu",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "93-right": {
+            "name": "shuishu",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "94-left": {
+            "name": "chihu",
+            "color": "duanshu",
+            "cost": "2",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2*ouzhouyetu"
+        }
+    },
+    {
+        "94-right": {
+            "name": "lang",
+            "color": "yinshan",
+            "cost": "3",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "95-left": {
+            "name": "shuishu",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "95-right": {
+            "name": "putongchangerfu",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "96-left": {
+            "name": "beixisitanshuerfu",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "96-right": {
+            "name": "shuishu",
+            "color": "xiangshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "97-left": {
+            "name": "ne",
+            "color": "baihua",
+            "cost": "0",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "97-right": {
+            "name": "zilanmufeng",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "98-left": {
+            "name": "lang",
+            "color": "huaqisong",
+            "cost": "3",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "98-right": {
+            "name": "ne",
+            "color": "ouzhouqiyeshu",
+            "cost": "0",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "99-left": {
+            "name": "xifangpao",
+            "color": "duanshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "99-right": {
+            "name": "xiaoyezhu",
+            "color": "meiguowutong",
+            "cost": "1",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "100-left": {
+            "name": "beixisitanshuerfu",
+            "color": "xiangshu",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "100-right": {
+            "name": "lang",
+            "color": "yinshan",
+            "cost": "3",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "101-left": {
+            "name": "xifangpao",
+            "color": "yinshan",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "101-right": {
+            "name": "sheli",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "102-left": {
+            "name": "shidiao",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "102-right": {
+            "name": "beixisitanshuerfu",
+            "color": "baihua",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "103-left": {
+            "name": "ouzhouyetu",
+            "color": "shanmaoju",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "103-right": {
+            "name": "ouzhoumalu",
+            "color": "ouzhouqiyeshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "104-left": {
+            "name": "lang",
+            "color": "meiguowutong",
+            "cost": "3",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "104-right": {
+            "name": "matiejutoufu",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "bat",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "105-left": {
+            "name": "xiaoyezhu",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "105-right": {
+            "name": "ouzhoumalu",
+            "color": "xiangshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "106-left": {
+            "name": "chihu",
+            "color": "shanmaoju",
+            "cost": "2",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2*ouzhouyetu"
+        }
+    },
+    {
+        "106-right": {
+            "name": "xiaoyezhu",
+            "color": "xiangshu",
+            "cost": "1",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "107-left": {
+            "name": "sheli",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "107-right": {
+            "name": "huanxiong",
+            "color": "baihua",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": ""
+        }
+    },
+    {
+        "108-left": {
+            "name": "xiaoyezhu",
+            "color": "xiangshu",
+            "cost": "1",
+            "type": "even-toed",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "108-right": {
+            "name": "sheli",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "109-left": {
+            "name": "ouzhouyetu",
+            "color": "baihua",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "109-right": {
+            "name": "shidiao",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "110-left": {
+            "name": "sheli",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "110-right": {
+            "name": "chihu",
+            "color": "huaqisong",
+            "cost": "2",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2*ouzhouyetu"
+        }
+    },
+    {
+        "111-left": {
+            "name": "ouzhouyetu",
+            "color": "baihua",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "111-right": {
+            "name": "ouzhoumalu",
+            "color": "ouzhouqiyeshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "112-left": {
+            "name": "zilanmufeng",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "112-right": {
+            "name": "ouzhouyetu",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "1*ouzhouyetucount"
+        }
+    },
+    {
+        "113-left": {
+            "name": "ouzhougouguan",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "2"
+        }
+    },
+    {
+        "113-right": {
+            "name": "nianlu",
+            "color": "duanshu",
+            "cost": "2",
+            "type": "even-toed, deer",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "114-up": {
+            "name": "cangying",
+            "color": "huaqisong",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "114-down": {
+            "name": "taixian",
+            "color": "duanshu",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "115-up": {
+            "name": "dabanzhuomunniao",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "115-down": {
+            "name": "muyi",
+            "color": "baihua",
+            "cost": "1",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "116-up": {
+            "name": "cangtouyanque",
+            "color": "baihua",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "116-down": {
+            "name": "muyi",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "117-up": {
+            "name": "huilinxiao",
+            "color": "shanmaoju",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "117-down": {
+            "name": "qiaojia",
+            "color": "meiguowutong",
+            "cost": "2",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "118-up": {
+            "name": "lvbaoxiadie",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "118-down": {
+            "name": "huorongyuan",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "119-up": {
+            "name": "zishanxiadie",
+            "color": "ouzhouqiyeshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "119-down": {
+            "name": "zegui",
+            "color": "meiguowutong",
+            "cost": "2",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none5"
+        }
+    },
+    {
+        "120-up": {
+            "name": "huangyuanxiadie",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "120-down": {
+            "name": "zegui",
+            "color": "baihua",
+            "cost": "2",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none5"
+        }
+    },
+    {
+        "121-up": {
+            "name": "huangyuanxiadie",
+            "color": "yinshan",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "121-down": {
+            "name": "huorongyuan",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "122-up": {
+            "name": "hongfuhuique",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "122-down": {
+            "name": "shuwa",
+            "color": "duanshu",
+            "cost": "",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "123-up": {
+            "name": "cangtouyanque",
+            "color": "meiguowutong",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "123-down": {
+            "name": "qiaojia",
+            "color": "baihua",
+            "cost": "2",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "124-up": {
+            "name": "cangying",
+            "color": "yinshan",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "124-down": {
+            "name": "muyi",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "125-up": {
+            "name": "dabanzhuomunniao",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "125-down": {
+            "name": "dachanchu",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "126-up": {
+            "name": "songya",
+            "color": "baihua",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none3"
+        }
+    },
+    {
+        "126-down": {
+            "name": "shujue",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "127-up": {
+            "name": "huilinxiao",
+            "color": "shanmaoju",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "127-down": {
+            "name": "yecaomei",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "128-up": {
+            "name": "lvbaoxiadie",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "128-down": {
+            "name": "heimei",
+            "color": "yinshan",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "129-up": {
+            "name": "zishanxiadie",
+            "color": "ouzhouqiyeshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "129-down": {
+            "name": "taixian",
+            "color": "huaqisong",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "130-up": {
+            "name": "huangyuanxiadie",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "130-down": {
+            "name": "yinghuochou",
+            "color": "duanshu",
+            "cost": "0",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "131-up": {
+            "name": "yuxiadie",
+            "color": "yinshan",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "131-down": {
+            "name": "heimei",
+            "color": "baihua",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "132-up": {
+            "name": "hongfuhuique",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "132-down": {
+            "name": "ciwei",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "133-up": {
+            "name": "kongquexiadie",
+            "color": "yinshan",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "133-down": {
+            "name": "ciwei",
+            "color": "xiangshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "134-up": {
+            "name": "hongsongshu",
+            "color": "huaqisong",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "134-down": {
+            "name": "dachanchu",
+            "color": "ouzhouqiyeshu",
+            "cost": "0",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "135-up": {
+            "name": "hongsongshu",
+            "color": "ouzhouqiyeshu",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "135-down": {
+            "name": "yinghuochou",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "136-up": {
+            "name": "cangtouyanque",
+            "color": "shanmaoju",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "136-down": {
+            "name": "dachanchu",
+            "color": "yinshan",
+            "cost": "0",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "137-up": {
+            "name": "songya",
+            "color": "baihua",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none3"
+        }
+    },
+    {
+        "137-down": {
+            "name": "yinghuochou",
+            "color": "huaqisong",
+            "cost": "0",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "138-up": {
+            "name": "lvbaoxiadie",
+            "color": "shanmaoju",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "138-down": {
+            "name": "taixian",
+            "color": "duanshu",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "139-up": {
+            "name": "kongquexiadie",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "139-down": {
+            "name": "jiyoujun",
+            "color": "yinshan",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "140-up": {
+            "name": "kongquexiadie",
+            "color": "ouzhouqiyeshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "140-down": {
+            "name": "yinghuochou",
+            "color": "shanmaoju",
+            "cost": "0",
+            "type": "insect",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "141-up": {
+            "name": "yuxiadie",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "141-down": {
+            "name": "yanshu",
+            "color": "xiangshu",
+            "cost": "2",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "142-up": {
+            "name": "cangying",
+            "color": "yinshan",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "142-down": {
+            "name": "ciwei",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "143-up": {
+            "name": "dabanzhuomunniao",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "143-down": {
+            "name": "yecaomei",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "144-up": {
+            "name": "songya",
+            "color": "meiguowutong",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none3"
+        }
+    },
+    {
+        "144-down": {
+            "name": "duyingsan",
+            "color": "yinshan",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "145-up": {
+            "name": "huilinxiao",
+            "color": "baihua",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "145-down": {
+            "name": "niuganjun",
+            "color": "huaqisong",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "146-up": {
+            "name": "hongsongshu",
+            "color": "shanmaoju",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "146-down": {
+            "name": "huorongyuan",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "147-up": {
+            "name": "zishanxiadie",
+            "color": "baihua",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "147-down": {
+            "name": "shuwa",
+            "color": "xiangshu",
+            "cost": "",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "148-up": {
+            "name": "kongquexiadie",
+            "color": "duanshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "148-down": {
+            "name": "dachanchu",
+            "color": "shanmaoju",
+            "cost": "0",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "149-up": {
+            "name": "huangyuanxiadie",
+            "color": "baihua",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "149-down": {
+            "name": "shuwa",
+            "color": "xiangshu",
+            "cost": "",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "150-up": {
+            "name": "hongfuhuique",
+            "color": "huaqisong",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "150-down": {
+            "name": "gaodahuanbinggu",
+            "color": "ouzhouqiyeshu",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none0"
+        }
+    },
+    {
+        "151-up": {
+            "name": "cangying",
+            "color": "xiangshu",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "151-down": {
+            "name": "dachanchu",
+            "color": "meiguowutong",
+            "cost": "0",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "152-up": {
+            "name": "songya",
+            "color": "ouzhouqiyeshu",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none3"
+        }
+    },
+    {
+        "152-down": {
+            "name": "shujue",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "153-up": {
+            "name": "huilinxiao",
+            "color": "meiguowutong",
+            "cost": "2",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "153-down": {
+            "name": "dachanchu",
+            "color": "huaqisong",
+            "cost": "0",
+            "type": "amphibian",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "154-up": {
+            "name": "hongfuhuique",
+            "color": "yinshan",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "154-down": {
+            "name": "shujue",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "155-up": {
+            "name": "hongsongshu",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "155-down": {
+            "name": "yecaomei",
+            "color": "baihua",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "156-up": {
+            "name": "lvbaoxiadie",
+            "color": "xiangshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "156-down": {
+            "name": "heimei",
+            "color": "shanmaoju",
+            "cost": "0",
+            "type": "plant",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "157-up": {
+            "name": "zishanxiadie",
+            "color": "duanshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "157-down": {
+            "name": "duyingsan",
+            "color": "xiangshu",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "158-up": {
+            "name": "huangyuanxiadie",
+            "color": "ouzhouqiyeshu",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "158-down": {
+            "name": "jiyoujun",
+            "color": "baihua",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "159-up": {
+            "name": "yuxiadie",
+            "color": "shanmaoju",
+            "cost": "0",
+            "type": "insect, butterfly",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "159-down": {
+            "name": "yanshu",
+            "color": "meiguowutong",
+            "cost": "2",
+            "type": "crawled",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "160-up": {
+            "name": "cangtouyanque",
+            "color": "meiguowutong",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "160-down": {
+            "name": "gaodahuanbinggu",
+            "color": "yinshan",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "161-up": {
+            "name": "dabanzhuomunniao",
+            "color": "duanshu",
+            "cost": "1",
+            "type": "bird",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    },
+    {
+        "161-down": {
+            "name": "niuganjun",
+            "color": "huaqisong",
+            "cost": "2",
+            "type": "mushroom",
+            "condition": "none",
+            "rewards": "none",
+            "effect": "none",
+            "rule": "none"
+        }
+    }
+]
