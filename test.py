@@ -6,7 +6,7 @@ class ForestScorer:
         """初始化计分器，加载卡牌数据"""
         with open(cards_json, 'r', encoding='utf-8') as f:
             self.cards = json.load(f)
-        self.card_dict = {card for card in self.cards}
+        self.card_dict = self.cards
         
     def parse_forest_string(self, forest_str):
         """解析森林字符串"""
@@ -43,7 +43,7 @@ class ForestScorer:
             print(f"玩家 {i+1} 总分: {score}\n")
         return scores
     
-    def calculate_player_score(self, forest):
+    def calculate_player_score(self, forest, card_dict):
         """计算单个玩家的得分"""
         total_score = 0
         visible_cards = set()
@@ -58,22 +58,21 @@ class ForestScorer:
             if tree_card:
                 visible_cards.add(tree['tree'])
                 if tree_card['type'] == 'tree':
-                    tree_types.add(tree_card['tree_type'])
-            
+                    tree_types.add(tree_card['color'])
             for position in ['top', 'bottom', 'left', 'right']:
                 for card_id in tree[position]:
                     if card_id:
-                        card = self.card_dict.get(card_id)
+                        card = card_dict.get(f"{card_id}-{position}")
                         if card:
-                            visible_cards.add(card_id)
+                            visible_cards.add(f"{card_id}-{position}") # f"{card_id}-{position}"
                             card_counts[card['name']] += 1
-                            species_counts[card['species']] += 1
+                            species_counts[card['type']] += 1
                             position_counts[position] += 1
         
         # 计算树木得分
         tree_score = 0
         for tree in forest:
-            tree_card = self.card_dict.get(tree['tree'])
+            tree_card = card_dict.get(tree['tree'])
             if tree_card and tree_card['type'] == 'tree':
                 # 基础分
                 tree_score += tree_card['base_points']
@@ -156,7 +155,7 @@ class ForestScorer:
 # 示例使用
 if __name__ == "__main__":
     # 假设cards.json包含所有卡牌数据
-    scorer = ForestScorer('cards.json')
+    scorer = ForestScorer('based_cards.json')
     
     # 示例森林字符串
     # 格式："树木ID-上-下-左-右,另一棵树...;另一玩家..."
