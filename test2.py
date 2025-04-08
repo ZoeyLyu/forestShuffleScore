@@ -5,7 +5,7 @@ def init(json_file):
     cards = []
     with open(json_file, 'r', encoding='utf-8') as f:
         cards = json.load(f)
-        print(cards[0]) # [{'1': {'name': 'duanshu', 'color': 'duanshu', 'cost': 1, 'type': 'tree', 'condition': None, 'rewards': None, 'effect': None, 'score_rules': 'duanshuScore'}}]
+        print(type(cards[0])) # [{'1': {'name': 'duanshu', 'color': 'duanshu', 'cost': 1, 'type': 'tree', 'condition': None, 'rewards': None, 'effect': None, 'score_rules': 'duanshuScore'}}]
     return cards
 
 def parse_forest_string(forest_str):
@@ -47,7 +47,11 @@ def calculate_score(forest_str):
 def calculate_player_score(forest):
     return 2
 
-
+def process_forests_info(forests):
+    info = []
+    # [[{'tree': '66', 'top': ['141'], 'bottom': ['142'], 'left': [], 'right': ['78']}, {'tree': ' 65', 'top': ['118', '119'], 'bottom': ['120'], 'left': ['72'], 'right': ['73']}], [{'tree': ' 8', 'top': ['131'], 'bottom': ['108'], 'left': ['81'], 'right': ['82']}]]
+    for forest in forests:
+        print(forest)
 
 
 cards_file = 'based_cards.json'
@@ -58,3 +62,5 @@ inputs = "66-141-142--78, 65-118/119-120-72-73; 8-131-108-81-82"
 #print(forests)
 
 scores = calculate_score(inputs)
+
+
