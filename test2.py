@@ -1,5 +1,6 @@
 import json
 
+from count_any_thing import *
 
 def init(json_file):
     cards = []
@@ -47,20 +48,17 @@ def calculate_score(forest_str):
 def calculate_player_score(forest):
     return 2
 
-def process_forests_info(forests):
-    info = []
-    # [[{'tree': '66', 'top': ['141'], 'bottom': ['142'], 'left': [], 'right': ['78']}, {'tree': ' 65', 'top': ['118', '119'], 'bottom': ['120'], 'left': ['72'], 'right': ['73']}], [{'tree': ' 8', 'top': ['131'], 'bottom': ['108'], 'left': ['81'], 'right': ['82']}]]
-    for forest in forests:
-        print(forest)
-
 
 cards_file = 'based_cards.json'
 cards = init(cards_file)
-inputs = "66-141-142--78, 65-118/119-120-72-73; 8-131-108-81-82"
-#forests = parse_forest_string(inputs)
-# [[{'tree': '66', 'top': ['141'], 'bottom': ['142'], 'left': [], 'right': ['78']}, {'tree': ' 65', 'top': ['118', '119'], 'bottom': ['120'], 'left': ['72'], 'right': ['73']}], [{'tree': ' 8', 'top': ['131'], 'bottom': ['108'], 'left': ['81'], 'right': ['82']}]]
-#print(forests)
+inputs = "66-141-142--78, 65-118/119-120-72-73; 8-131-123-81-82"
+forests = parse_forest_string(inputs)
+[[{'tree': '66', 'top': ['141'], 'bottom': ['142'], 'left': [], 'right': ['78']}, {'tree': ' 65', 'top': ['118', '119'], 'bottom': ['120'], 'left': ['72'], 'right': ['73']}], [{'tree': ' 8', 'top': ['131'], 'bottom': ['108'], 'left': ['81'], 'right': ['82']}]]
+print(forests)
 
-scores = calculate_score(inputs)
+info = process_forests_info(forests, cards)
+print(info)
+
+# scores = calculate_score(inputs)
 
 

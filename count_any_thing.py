@@ -6,16 +6,13 @@
 forests = [[{'tree': '66', 'top': ['141'], 'bottom': ['142'], 'left': [], 'right': ['78']}, {'tree': ' 65', 'top': ['118', '119'], 'bottom': ['120'], 'left': ['72'], 'right': ['73']}], [{'tree': ' 8', 'top': ['131'], 'bottom': ['108'], 'left': ['81'], 'right': ['82']}]]
 def process_forests_info(forests, cards):
     info = []
-    player_info = {}
     # [[{'tree': '66', 'top': ['141'], 'bottom': ['142'], 'left': [], 'right': ['78']}, {'tree': ' 65', 'top': ['118', '119'], 'bottom': ['120'], 'left': ['72'], 'right': ['73']}], [{'tree': ' 8', 'top': ['131'], 'bottom': ['108'], 'left': ['81'], 'right': ['82']}]]
     for forest in forests:
-        player_info = {}
-        tree_info = {
-            "fushuCount": 0,
-            "tree_name": "", # used by hongsongshu("xiangshu"),cangtouyanque("shanmaoju")
-            "isGuanmu": False,
-            "ChanchuCountUnderTheTree": 0, #  计算大蟾蜍时使用，两个大蟾蜍共享这个位置
+        player_info = {
+            "tree": [],
+            "forest": {},
         }
+        
         forest_info = {
             # tree type count
             "duanshuCount": 0,
@@ -61,12 +58,24 @@ def process_forests_info(forests, cards):
 
             "differentPlants": set(), # 毛地黄使用
             "differentBirds": set(), # 蓝莓使用
+            "diffrentBats": set(), # 蝙蝠
+
+            "xifangpaoCount": 0, # 猞猁
+            "ouzhouyetuCount": 0, # 欧洲野兔，赤狐
+            "xiaoyezhuCount": False, # 野猪 野猪（雄）
+
 
 
 
         }
-        print(forest) # [{'tree': '66', 'top': ['141'], 'bottom': ['142'], 'left': [], 'right': ['78']}, {'tree': ' 65', 'top': ['118', '119'], 'bottom': ['120'], 'left': ['72'], 'right': ['73']}]
         for tree in forest:
+            tree_info = {
+                "fushuCount": 0,
+                "tree_name": "", # used by hongsongshu("xiangshu"),cangtouyanque("shanmaoju")
+                "isGuanmu": False,
+                "ChanchuCountUnderTheTree": 0, #  计算大蟾蜍时使用，两个大蟾蜍共享这个位置
+                "hasBat": False,
+            }
             if tree['tree'] == 0:
                 forest_info['treeCount'] += 1
                 tree_info['tree_name'] = "shumiao"
@@ -118,9 +127,9 @@ def process_forests_info(forests, cards):
                 forest_info["goashanCount"] += 1
 
             # up
-            if tree['up']:
-                tree_info['fushuCount'] += len(tree['up'])
-                for id in tree['up']:
+            if tree['top']:
+                tree_info['fushuCount'] += len(tree['top'])
+                for id in tree['top']:
                     idIncludeSide = f"{id}-up"
                     # 查找 "9-up" 对应的 name
                     card_info = next(
@@ -128,7 +137,7 @@ def process_forests_info(forests, cards):
                         None  # 如果没有找到，返回 None（可选）
                     )
                     tree_type = card_info["color"]
-                    forest_info[f"{card_info["color"]}Count"] += 1 # forest_info["duanshuCount"] += 1
+                    forest_info[f"{card_info['color']}Count"] += 1 # forest_info["duanshuCount"] += 1
                     # type include "insect, butterfly", bird, crawled
                     if "insect" in card_info['type']:
                         forest_info['insectCount'] += 1
@@ -149,17 +158,17 @@ def process_forests_info(forests, cards):
                 pass
 
             # down
-            if tree['down']:
-                tree_info['fushuCount'] += len(tree['down'])
-                forest_info['downTreeCount'] += len(tree['down'])
-                for id in tree['down']:
+            if tree['bottom']:
+                tree_info['fushuCount'] += len(tree['bottom'])
+                forest_info['downTreeCount'] += len(tree['bottom'])
+                for id in tree['bottom']:
                     idIncludeSide = f"{id}-down"
                     # 查找 "9-up" 对应的 name
                     card_info = next(
                         (item[idIncludeSide] for item in cards if idIncludeSide in item),
                         None  # 如果没有找到，返回 None（可选）
                     )
-                    forest_info[f"{card_info["color"]}Count"] += 1 # forest_info["duanshuCount"] += 1
+                    forest_info[f"{card_info['color']}Count"] += 1 # forest_info["duanshuCount"] += 1
                     # type include mogu, insect, plant, xiyi,youzhua,lindibianyuan,gaoshan
                     if "insect" in card_info['type']:
                         forest_info['insectCount'] += 1
@@ -187,17 +196,99 @@ def process_forests_info(forests, cards):
             # left
             if tree['left']:
                 tree_info['fushuCount'] += len(tree['left'])
-                pass
+                for id in tree['left']:
+                    idIncludeSide = f"{id}-left"
+                    # 查找 "9-up" 对应的 name
+                    card_info = next(
+                        (item[idIncludeSide] for item in cards if idIncludeSide in item),
+                        None  # 如果没有找到，返回 None（可选）
+                    )
+                    forest_info[f"{card_info['color']}Count"] += 1 # forest_info["duanshuCount"] += 1
+                    # type include mogu, insect, plant, xiyi,youzhua,lindibianyuan,gaoshan
+                    if "insect" in card_info['type']:
+                        forest_info['insectCount'] += 1
+                    if 'crawled' in card_info['type']:
+                        forest_info['youzhuaCount'] += 1
+                    if "even-toed" in card_info['type']:
+                        forest_info['outiCount'] += 1
+                    if "deer" in card_info['type']:
+                        forest_info['deerCount'] += 1
+                    if "bat" in card_info['type']:
+                        forest_info['batCount'] += 1
+                        forest_info['diffrentBats'].add(card_info['name'])
+                        tree_info['hasBat'] = True
+                    if "bird" in card_info['type']:
+                        forest_info['birdCount'] += 1
+                        forest_info['differentBirds'].add(card_info['name'])
+                    
+                    if "lindibianyuan" in card_info['type']:
+                        forest_info['lindibianyuanCount'] += 1
+                    if "gaoshan" in card_info['type']:
+                        forest_info['goashanCount'] += 1
+                    
+                    if card_info['name'] == "xiaoyezhu":
+                        forest_info['xiaoyezhuCount'] += 1
+                    if card_info['name'] == "xifangpao":
+                        forest_info['xifangpaoCount'] += 1
+                    if card_info['name'] == "ouzhouyetu":
+                        forest_info['ouzhouqiyeshuCount'] += 1
+                    if card_info['name'] == "zilanmufeng":
+                        if tree_info['tree_name'] in ["shanmaoju", "duanshu", "ouzhouqiyeshu"]:
+                            forest_info[f"{tree_info['tree_name']}TreeCount"] += 1
 
             # right
             if tree['right']:
                 tree_info['fushuCount'] += len(tree['right'])
-                pass
+                for id in tree['right']:
+                    idIncludeSide = f"{id}-right"
+                    # 查找 "9-up" 对应的 name
+                    card_info = next(
+                        (item[idIncludeSide] for item in cards if idIncludeSide in item),
+                        None  # 如果没有找到，返回 None（可选）
+                    )
+                    forest_info[f"{card_info['color']}Count"] += 1 # forest_info["duanshuCount"] += 1
+                    # type include mogu, insect, plant, xiyi,youzhua,lindibianyuan,gaoshan
+                    if "insect" in card_info['type']:
+                        forest_info['insectCount'] += 1
+                    if 'crawled' in card_info['type']:
+                        forest_info['youzhuaCount'] += 1
+                    if "even-toed" in card_info['type']:
+                        forest_info['outiCount'] += 1
+                    if "deer" in card_info['type']:
+                        forest_info['deerCount'] += 1
+                    if "bat" in card_info['type']:
+                        forest_info['batCount'] += 1
+                        forest_info['diffrentBats'].add(card_info['name'])
+                        tree_info['hasBat'] = True
+                    if "bird" in card_info['type']:
+                        forest_info['birdCount'] += 1
+                        forest_info['differentBirds'].add(card_info['name'])
+                    
+                    if "lindibianyuan" in card_info['type']:
+                        forest_info['lindibianyuanCount'] += 1
+                    if "gaoshan" in card_info['type']:
+                        forest_info['goashanCount'] += 1
+                    
+                    if card_info['name'] == "xiaoyezhu":
+                        forest_info['xiaoyezhuCount'] += 1
+                    if card_info['name'] == "xifangpao":
+                        forest_info['xifangpaoCount'] += 1
+                    if card_info['name'] == "ouzhouyetu":
+                        forest_info['ouzhouqiyeshuCount'] += 1
+                    if card_info['name'] == "zilanmufeng":
+                        if tree_info['tree_name'] in ["shanmaoju", "duanshu", "ouzhouqiyeshu"]:
+                            forest_info[f"{tree_info['tree_name']}TreeCount"] += 1
 
             # tree_all
 
             # forest_all
-            if tree['up'] and tree['down'] and tree['left'] and tree['right']:
+            if tree['top'] and tree['bottom'] and tree['left'] and tree['right']:
                 forest_info['fullTreeCount'] += 1
             
-            # butterfly ?
+
+            player_info['tree'].append(tree_info)
+        
+        player_info['forest'] = forest_info
+        info.append(player_info)
+    return info
+    
